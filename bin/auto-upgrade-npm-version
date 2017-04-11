@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+try {
+    require('../')();
+} catch (error) {
+    console.error(error.toString());
+    process.exit(1);
+}
