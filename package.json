@@ -1,0 +1,31 @@
+{
+  "name": "auto-upgrade-npm-version",
+  "version": "0.0.1",
+  "description": "auto-upgrade-npm-version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "auto-upgrade-npm-version": "bin/auto-upgrade-npm-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woaiso/auto-upgrade-npm-version.git"
+  },
+  "keywords": [
+    "auto",
+    "upgrade",
+    "npm",
+    "version"
+  ],
+  "author": "woaiso@woaiso.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/woaiso/auto-upgrade-npm-version/issues"
+  },
+  "homepage": "https://github.com/woaiso/auto-upgrade-npm-version#readme",
+  "dependencies": {
+    "semver": "^5.3.0"
+  }
+}
