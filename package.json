@@ -1,10 +1,11 @@
 {
   "name": "auto-upgrade-npm-version",
-  "version": "0.0.1",
+  "version": "1.0.5",
   "description": "auto-upgrade-npm-version",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node ./bin/auto-upgrade-npm-version"
   },
   "bin": {
     "auto-upgrade-npm-version": "bin/auto-upgrade-npm-version"
@@ -26,6 +27,10 @@
   },
   "homepage": "https://github.com/woaiso/auto-upgrade-npm-version#readme",
   "dependencies": {
+    "package.json": "^2.15.11",
     "semver": "^5.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
