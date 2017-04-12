@@ -1,6 +1,6 @@
 {
   "name": "auto-upgrade-npm-version",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "auto-upgrade-npm-version",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/woaiso/auto-upgrade-npm-version#readme",
   "dependencies": {
-    "package.json": "^2.15.11",
+    "package-json": "^4.0.0",
     "semver": "^5.3.0"
   },
   "publishConfig": {

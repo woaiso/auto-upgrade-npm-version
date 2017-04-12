@@ -53,7 +53,6 @@ function writePackageVersion(newVersion) {
 
 module.exports = function() {
   packageJson(getPackageName().toLowerCase(), { allVersions: true }).then(function(data) {
-    console.log(data);
     var tags = data[ 'dist-tags' ];
     //get max versions
     var values = [];
