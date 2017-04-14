@@ -5,8 +5,7 @@
 var semver = require('semver'),
   path = require('path'),
   lib = require('./../lib');
-// console.log = () => { };
-
+console.log = () => { };
 
 it('package name is auto-upgrade-npm-version', () => {
   expect(lib.getPackageName()).toEqual('auto-upgrade-npm-version');
