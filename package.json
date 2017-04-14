@@ -1,10 +1,10 @@
 {
   "name": "auto-upgrade-npm-version",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "auto-upgrade-npm-version",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage",
     "prepublish": "node ./bin/auto-upgrade-npm-version"
   },
   "bin": {
@@ -32,5 +32,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
   }
 }
