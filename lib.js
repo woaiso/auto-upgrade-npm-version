@@ -18,7 +18,6 @@ function getPackageVersion() {
   } catch (unused) {
     throw new Error('Could not load package.json, please make sure it exists');
   }
-
   if (!semver.valid(version)) {
     throw new Error('Invalid version number found in package.json, please make sure it is valid');
   }
