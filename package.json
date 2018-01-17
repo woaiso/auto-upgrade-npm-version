@@ -34,6 +34,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "jest": "^20.0.3"
+    "jest": "^22.1.2"
   }
 }
