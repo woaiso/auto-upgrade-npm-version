@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/woaiso/auto-upgrade-npm-version#readme",
   "dependencies": {
-    "package-json": "^6.0.0",
+    "package-json": "^6.4.0",
     "semver": "^6.0.0"
   },
   "publishConfig": {
